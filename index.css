@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    font-size: 4rem; /* Tamaño grande para móviles */
+    margin: 0 10px;
+    padding: 10px;
+    background: linear-gradient(#b6905d, #766543);
+    color: white;
+    border-radius: 5px;
+}
